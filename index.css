@@ -1,0 +1,66 @@
+body{
+    background-image: url(./sky.jpg);
+
+}
+*{
+    margin: 0px;
+
+}
+.road{
+    height:30vh;
+    width: 500%;
+    background-image: url(./road.jpg);
+    position: absolute;
+    top: 70vh;
+    animation: road 10s linear infinite;
+
+}
+@keyframes road{
+    100%{
+        transform: translate(-3000px);
+    }
+}
+.city{
+    height: 30vh;
+    width: 500%;
+    position: absolute;
+    background-image: url(./city.png);
+    margin-top: 40vh;
+    animation: city 20s linear infinite;
+}
+@keyframes city{
+    100%{
+        transform: translate(-3000px);
+    }
+}
+.carimg{
+    width: 500px;
+    position: absolute;
+    margin-top:  60vh;
+    margin-left: 33%;
+}
+.tyre1{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 76vh;
+    left: 795px;
+    animation: tyre 1s linear infinite;
+}
+.tyre2{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 76vh;
+    left: 490px;
+    animation: tyre 1s linear infinite;
+} 
+@keyframes tyre{
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
